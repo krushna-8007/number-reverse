@@ -1,0 +1,16 @@
+package java_programss;
+
+public class String_spaces_count {
+	public static void main(String[] args) {
+		String name="kruhna gavali";
+		int count=0;
+		for(int i=0;i<name.length()-1;i++) {
+			if(name.charAt(i)==' ') {
+				count =count+1;
+				
+			}
+		}
+		System.out.println("spaces are--"+count);
+	}
+
+}
